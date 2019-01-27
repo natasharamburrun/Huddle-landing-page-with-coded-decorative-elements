@@ -1,2 +1,24 @@
+@import 'components';
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	max-width: 120px;
+	align-self: center;
+}
+
+.button-tryit {
+	background-color: #ffffff;
+	color: $secondary-color;
+	align-self: center;
+	min-width: 100px;
+	min-height: 25px;
+}
+

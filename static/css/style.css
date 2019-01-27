@@ -5,4 +5,19 @@
 .attribution a {
   color: #3e52a3; }
 
+header {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  max-width: 120px;
+  align-self: center; }
+
+.button-tryit {
+  background-color: #ffffff;
+  color: #9a52ff;
+  align-self: center;
+  min-width: 100px;
+  min-height: 25px; }
+
 /*# sourceMappingURL=style.css.map */
