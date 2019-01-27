@@ -1,12 +1,20 @@
 @import 'components';
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+	color: $neutral-color1; 
+}
 
 *, *::before, *::after {
 	box-sizing: border-box;
 }
 
+body {
+	font-family: $font-body;
+}
 
 header {
 	display: flex;
@@ -76,4 +84,46 @@ main {
 	font-family: $font-body;
 	font-weight: 400;
 	color: $neutral-color2;
+}
+
+.tryforfree {
+	border: 1px solid grey;
+	padding: 20px;
+	margin: 0 25px 0 25px;
+	box-shadow : 0 1px 2px $secondary-color, 0 1px 3px $secondary-color;
+}
+
+.try-heading {
+	font-family: $font-body;
+	font-weight: 700;
+}
+
+.try-subheading {
+	font-family: $font-body;
+	font-weight: 400;
+	color: $neutral-color2;
+	font-size: 10px;
+}
+
+footer {
+	background-color: $neutral-color3
+}
+
+
+a {
+	text-decoration: none;
+	color: $neutral-color1;
+	font-weight: 400;
+}
+
+ul {
+	font-family: $font-body;	
+	list-style: none;
+	font-weight: 700;
+}
+
+.footer-info {
+	text-align: center;
+	color: $neutral-color1;
+	font-weight: 400;
 }
