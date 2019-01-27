@@ -3,6 +3,10 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
 
 header {
 	display: flex;
@@ -22,3 +26,54 @@ header {
 	min-height: 25px;
 }
 
+.screen {
+	padding: 30px;
+
+}
+
+.screen-images {
+	width: 100%;
+	display: block;
+}
+
+main {
+	text-align: center;
+}
+
+.title {
+	font-family: $font-heading;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-family: $font-body;
+	font-weight: 400;
+	color: $neutral-color2;
+}
+
+.button-getstartedforfree {
+	background-color: $primary-color;
+	border-radius: 5px;
+	min-width: 150px;
+  min-height: 35px;
+}
+
+.screen-two {
+	padding: 30px;
+
+}
+
+.img-your-users {
+	width: 100%;
+	display: block
+}
+
+.p-heading{
+	font-family: $font-heading;
+}
+
+.paragraph {
+	font-family: $font-body;
+	font-weight: 400;
+	color: $neutral-color2;
+}

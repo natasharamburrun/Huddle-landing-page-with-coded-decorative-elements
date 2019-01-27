@@ -5,6 +5,9 @@
 .attribution a {
   color: #3e52a3; }
 
+*, *::before, *::after {
+  box-sizing: border-box; }
+
 header {
   display: flex;
   justify-content: space-between; }
@@ -19,5 +22,45 @@ header {
   align-self: center;
   min-width: 100px;
   min-height: 25px; }
+
+.screen {
+  padding: 30px; }
+
+.screen-images {
+  width: 100%;
+  display: block; }
+
+main {
+  text-align: center; }
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #808d99; }
+
+.button-getstartedforfree {
+  background-color: #ff52bf;
+  border-radius: 5px;
+  min-width: 150px;
+  min-height: 35px; }
+
+.screen-two {
+  padding: 30px; }
+
+.img-your-users {
+  width: 100%;
+  display: block; }
+
+.p-heading {
+  font-family: "Poppins", sans-serif; }
+
+.paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #808d99; }
 
 /*# sourceMappingURL=style.css.map */

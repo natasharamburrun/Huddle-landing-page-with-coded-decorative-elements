@@ -4,12 +4,16 @@ hsl(322, 100%, 66%);
 $secondary-color:
 hsl(265, 100%, 66%);
 
-$neutral-color:
-hsl(214, 64%, 98%)
-hsl(208, 11%, 55%)
+$neutral-color1:
+hsl(214, 64%, 98%);
+
+$neutral-color2:
+hsl(208, 11%, 55%);
+
+$neutral-color3:
 hsl(192, 100%, 9%);
 
 
 //Typography
-$font-primary: 'Poppins', sans-serif;
-$font-secondary:'Open Sans', sans-serif;
+$font-heading: 'Poppins', sans-serif;
+$font-body:'Open Sans', sans-serif;
