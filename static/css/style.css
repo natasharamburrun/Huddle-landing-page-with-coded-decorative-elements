@@ -48,11 +48,16 @@ main {
 .button-getstartedforfree {
   background-color: #ff52bf;
   border-radius: 5px;
-  min-width: 150px;
-  min-height: 35px; }
+  min-width: 200px;
+  min-height: 35px;
+  color: #ffffff;
+  border: none; }
 
 .screen-two {
   padding: 30px; }
+
+.screen-three {
+  margin-bottom: 50px; }
 
 .img-your-users {
   width: 100%;
@@ -93,11 +98,51 @@ a {
 ul {
   font-family: "Open Sans", sans-serif;
   list-style: none;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0; }
+
+li {
+  margin-left: 20px;
+  padding: 10px; }
 
 .footer-info {
   text-align: center;
   color: #f7f9fd;
   font-weight: 400; }
+
+.button-subscribe {
+  background-color: #ff52bf;
+  border-radius: 5px;
+  min-width: 300px;
+  min-height: 35px;
+  color: #ffffff;
+  border: none; }
+
+.input-field {
+  flex-direction: column;
+  display: inline-flex;
+  padding-bottom: 10px; }
+
+.input-box {
+  min-width: 300px;
+  min-height: 35px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none; }
+
+.subscribe-info {
+  font-weight: 400;
+  margin: 0px 20px 20px 20px; }
+
+.copyright {
+  color: #ffffff;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
