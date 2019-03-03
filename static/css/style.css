@@ -16,7 +16,7 @@ header {
   justify-content: space-between; }
 
 header {
-  padding: 20px 20px 50px 20px; }
+  padding: 20px 20px 20px; }
 
 .logo {
   align-self: center; }
@@ -93,10 +93,6 @@ ul {
   flex-direction: column;
   padding: 0; }
 
-li {
-  margin-left: 20px;
-  padding: 10px; }
-
 .footer-info {
   color: #f7f9fd;
   font-weight: 400; }
@@ -156,6 +152,20 @@ li {
     margin-bottom: 50px; }
 
   /*FOOTER*/
+  ul {
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+
+  li {
+    margin-left: 20px;
+    padding: 10px; }
+
   .footer-info {
     text-align: center; }
 
@@ -170,14 +180,11 @@ li {
   .logo {
     max-width: 250px; }
 
-  .communities-wrapper {
-    margin-top: 60px; }
-
   .illustration-picture-wrapper {
     max-width: 700px; }
 
   .title-wrapper {
-    margin: 75px 16px;
+    margin: 10px;
     max-width: 700px;
     display: inline-block; }
 
@@ -189,18 +196,23 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin: 100px; }
 
   .info-wrapper {
-    padding: 0 60px 0 60px;
-    text-align: left; }
-
-  .user-picture-wrapper {
-    padding: 0 60px 0 60px; }
+    text-align: left;
+    padding: 0 10%; }
 
   .freetrial-Wrapper {
     min-width: 400px;
     display: inline-block;
-    margin: 100px; } }
+    margin: 100px; }
+
+  /*FOOTER*/
+  ul {
+    display: block; }
+
+  li {
+    display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
