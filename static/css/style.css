@@ -19,7 +19,6 @@ header {
   padding: 20px 20px 50px 20px; }
 
 .logo {
-  max-width: 140px;
   align-self: center; }
 
 .button-tryit {
@@ -32,6 +31,9 @@ header {
 /*MAIN - SECTION1*/
 main {
   text-align: center; }
+
+.illustration-picture-wrapper {
+  display: inline-block; }
 
 .title {
   font-family: "Poppins", sans-serif;
@@ -130,6 +132,9 @@ li {
 
 @media only screen and (max-width: 735px) {
   /*MAIN - SECTION1*/
+  .logo {
+    max-width: 140px; }
+
   .user-picture-wrapper {
     padding: 40px; }
 
@@ -162,28 +167,40 @@ li {
     text-align: center; } }
 @media only screen and (min-width: 736px) {
   /*MAIN - SECTION1*/
+  .logo {
+    max-width: 250px; }
+
+  .communities-wrapper {
+    margin-top: 60px; }
+
   .illustration-picture-wrapper {
-    padding: 0 120px 0 120px; }
+    max-width: 700px; }
 
   .title-wrapper {
-    padding: 0 120px 0 120px;
-    font-size: 12px; }
+    margin: 75px 16px;
+    max-width: 700px;
+    display: inline-block; }
+
+  .subtitle {
+    text-align: center; }
 
   /*MAIN - SECTION2*/
   .user-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    margin: 0 auto; }
 
   .info-wrapper {
     padding: 0 60px 0 60px;
-    font-size: 12px; }
+    text-align: left; }
 
   .user-picture-wrapper {
     padding: 0 60px 0 60px; }
 
   .freetrial-Wrapper {
     min-width: 400px;
-    display: inline-block; } }
+    display: inline-block;
+    margin: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
